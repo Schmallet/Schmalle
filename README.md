@@ -37,17 +37,9 @@ node faucet.js
 
 This program will ask for the XRPL Testnet credentials that you generated in the previous step, use these credentials to transfer value to the Coston network, and then save your Coston network credentials in a file called: `costonAccount.json`. 
 
-### XRP on MetaMask
+### Coston Block Explorer
 
-MetaMask is an in-browser wallet & gateway to blockchain apps. MetaMask can be downloaded [here](https://metamask.io/). After you have installed MetaMask, you can hook it into Coston by clicking the network drop-down button in the top-center of the MetaMask app, then selecting the 'Custom RPC' option and entering the following fields:
-
-- Network Name: `Coston Test Network`
-- New RPC URL: `http://coston.flare.network:9650/ext/bc/C/rpc`
-- Symbol: `FXRP`
-
-After you have created and toggled to the Coston Test Network, you can now load in your Coston network credentials to MetaMask that were saved in the previous step to `costonAccount.json`. In MetaMask, click the 'My Accounts' button in the top-right corner of the app, navigate to 'Import Account' and then paste in your Coston network private key. After your account has loaded, you can refresh MetaMask by selecting the Coston Test Network RPC endpoint again in the network drop-down menu. Your balance of tokens on the Coston network should then appear as:
-
-![XRP on MetaMask](https://github.com/flare-eng/coston/blob/master/costonMetaMask.png)
+Finalised transactions can be viewed on the Coston block explorer at: http://flarescan.org/. You can check here to see that you have correctly received your faucet funds after completing the previous step.
 
 ### Smart Contracts with XRP
 
